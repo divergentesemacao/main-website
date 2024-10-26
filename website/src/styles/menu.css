@@ -1,0 +1,13 @@
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 16rem;
+    padding: 2rem;
+    z-index: 50;
+}
+
+details[open] .submenu {
+    display: block;
+}
